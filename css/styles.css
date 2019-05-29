@@ -1,0 +1,54 @@
+.jumbotron {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0.3;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.accommodations {
+  background-color: lightblue;
+}
+
+.Activities {
+  background-color: lightblue;
+}
+
+.travel-arrangements {
+  background-color: lightblue;
+}
+.ContactInfo {
+  background-color: lightgrey;
+  height: 100px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+/* .column {
+  float: right;
+} */
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
